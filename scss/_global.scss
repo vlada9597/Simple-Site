@@ -1,0 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background: #f9f9f9;
+  color: #727272;
+  line-height: 164%;
+}
+
+img, video {
+  display: block;
+  width: 100%;
+}
+
+.container {
+padding: 0 calc(50vw - 550px);
+}

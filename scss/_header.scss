@@ -1,0 +1,30 @@
+.header {
+  background: #eeeff1;
+  @include header;
+}
+
+.header-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.header-link {
+  text-decoration-line: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #000;
+
+  &:hover , &:focus {
+    text-decoration: overline;
+  }
+  
+}
+
+.header-link.header-link__active {
+  font-weight: 500;
+  color: #34547a;
+}
